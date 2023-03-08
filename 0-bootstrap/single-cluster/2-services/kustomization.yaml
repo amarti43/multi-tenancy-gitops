@@ -62,7 +62,7 @@ resources:
 
 ## IBM Foundational Services / Common Services
 - argocd/operators/ibm-foundations.yaml
-#- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
 #- argocd/operators/ibm-automation-foundation-core-operator.yaml
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 #- argocd/operators/ibm-license-service-operator.yaml
