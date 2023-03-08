@@ -2,7 +2,7 @@ resources:
 # IBM Software
 
 ## Cloud Pak for Integration
-#- argocd/operators/ibm-ace-operator.yaml
+- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
 #- argocd/instances/ibm-apic-instance.yaml
 #- argocd/instances/ibm-apic-management-portal-instance.yaml
