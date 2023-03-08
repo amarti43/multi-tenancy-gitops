@@ -16,7 +16,7 @@ resources:
 #- argocd/operators/ibm-mq-operator.yaml
 #- argocd/operators/ibm-opsdashboard-operator.yaml
 - argocd/operators/ibm-platform-navigator.yaml
-#- argocd/instances/ibm-platform-navigator-instance.yaml
+- argocd/instances/ibm-platform-navigator-instance.yaml
 
 ## Cloud Pak for Business Automation
 #- argocd/operators/ibm-cp4a-operator.yaml
