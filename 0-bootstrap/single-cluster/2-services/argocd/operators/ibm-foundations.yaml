@@ -22,7 +22,7 @@ spec:
         ibm-common-services:
           subscriptions:
             subscription:
-              channel: v3
+              channel: v3.23
               config:
                 resources: {}
               installPlanApproval: Automatic
