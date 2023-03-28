@@ -30,6 +30,8 @@ resources:
 
 #- argocd/cp4a/cp4a.yaml
 
+- argocd/eci/tekton-ci.yaml
+
 patches:
 - target:
     group: argoproj.io
