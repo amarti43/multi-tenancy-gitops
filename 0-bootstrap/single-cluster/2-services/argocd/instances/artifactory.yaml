@@ -41,7 +41,7 @@ spec:
             image:
               repository: docker.bintray.io/jfrog/artifactory-oss
             adminAccess:
-              password: admin
+              password: 'ThisIsAPa55W0rd*--*'
             persistence:
               enabled: true
               storageClassName: ''
