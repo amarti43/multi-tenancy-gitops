@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-eci-tekton-ci
+  name: apps-eci-ci
   annotations:
     argocd.argoproj.io/sync-wave: "300"
   labels:
