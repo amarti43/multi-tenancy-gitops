@@ -72,7 +72,7 @@ spec:
             enabled: true
             hooktype: PostSync
           hookdeletepolicy:
-            enabled: true
+            enabled: false
             hookdeletepolicytype: HookSucceeded
           serviceaccount: artifactory-argocd-hook-job
           roleaccess:
