@@ -35,6 +35,10 @@ resources:
 #- argocd/eci/ace-tekton.yaml
 #- argocd/eci/ace-jenkins.yaml
 
+
+- argocd/SEPE/dev.yaml
+
+
 patches:
 - target:
     group: argoproj.io
@@ -47,3 +51,4 @@ patches:
     - op: add
       path: /spec/source/targetRevision
       value: master
+
