@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: SEPE/config/argocd/dev
+    path: misapps/config/argocd/dev
   syncPolicy:
     automated:
       prune: true
